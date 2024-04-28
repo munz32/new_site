@@ -1,3 +1,26 @@
-body{
-    background-color:antiquewhite;
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    align-items: flex-end;
+    gap: 12px;
+    padding-right: 20px;
 }
